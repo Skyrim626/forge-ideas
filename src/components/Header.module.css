@@ -1,0 +1,64 @@
+.header {
+  padding: 56px 0 40px;
+}
+
+.logoWrap {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 80px;
+  line-height: 1;
+  color: var(--accent);
+  letter-spacing: 4px;
+}
+
+.logoMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.badge {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 2px;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 2px 7px;
+  border-radius: 2px;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.version {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text3);
+  letter-spacing: 1px;
+}
+
+.tagline {
+  font-size: 16px;
+  color: var(--text2);
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-bottom: 32px;
+}
+
+.tagline em {
+  font-style: normal;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, var(--accent) 0%, transparent 100%);
+  transform-origin: left;
+  width: 200px;
+}
