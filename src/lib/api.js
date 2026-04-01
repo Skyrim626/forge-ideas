@@ -34,12 +34,22 @@ Return ONLY valid JSON, no markdown fences, no preamble:
 ]`;
 
   // api.js — keep the proxy, only fix max_tokens
-  const response = await fetch("http://localhost:3001/api/messages", {
+  /* const response = await fetch("http://localhost:3001/api/messages", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       model: "claude-sonnet-4-20250514",
       max_tokens: 4096, // ← only change needed here
+      messages: [{ role: "user", content: prompt }],
+    }),
+  }); */
+
+  const response = await fetch("/api/messages", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      model: "claude-sonnet-4-20250514",
+      max_tokens: 4096,
       messages: [{ role: "user", content: prompt }],
     }),
   });
