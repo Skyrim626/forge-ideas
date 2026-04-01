@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect x="0" y="0" width="300" height="300" rx="72" fill="#0d0d12"/>
+  <rect x="0" y="0" width="300" height="300" rx="72" fill="none" stroke="#c8ff00" stroke-width="2" opacity="0.18"/>
+
+  <!-- Hammer head -->
+  <rect x="80" y="58" width="140" height="52" rx="10" fill="#c8ff00"/>
+
+  <!-- Hammer neck -->
+  <rect x="123" y="110" width="22" height="18" rx="4" fill="#c8ff00"/>
+
+  <!-- Hammer handle -->
+  <line x1="134" y1="128" x2="102" y2="218" stroke="#c8ff00" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Sparks -->
+  <circle cx="228" cy="78"  r="5"   fill="#c8ff00" opacity="0.9"/>
+  <circle cx="242" cy="62"  r="3.5" fill="#c8ff00" opacity="0.65"/>
+  <circle cx="246" cy="92"  r="3"   fill="#c8ff00" opacity="0.5"/>
+  <circle cx="258" cy="72"  r="2"   fill="#c8ff00" opacity="0.35"/>
+  <circle cx="254" cy="106" r="2"   fill="#c8ff00" opacity="0.25"/>
+  <circle cx="238" cy="52"  r="2"   fill="#c8ff00" opacity="0.2"/>
+
+  <!-- Lightning bolt -->
+  <polygon points="206,32 196,58 206,54 199,80 220,52 208,56" fill="#c8ff00" opacity="0.35"/>
+</svg>
